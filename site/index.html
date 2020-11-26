@@ -213,27 +213,23 @@ page_sections:
       - _component_type: info
         bg: true
         text_markdown: Bookshop kindly asks you to colocate your component files together.
-  - slug: using-components-header
+  - slug: using-components-code
     bg_color: white
     alignment: center
     content_blocks:
       - _component_type: info
         bg: false
         text_markdown: Using components
-  - slug: using-components-code
-    bg_color: white
-    alignment: center
-    content_blocks:
       - _component_type: codey
         code_block: >-
-          <!-- old -->
+          Old:
 
           {% include components/button.html type=page.button.type
           href=page.button.href icon=page.button.icon wide=page.button.wide
           text=page.button.text %}
 
 
-          <!-- new -->
+          New:
 
           {% component button bind=page.button %}
 ---
