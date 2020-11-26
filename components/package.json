@@ -14,8 +14,8 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.11.4",
-    "@bookshop/gen": "^1.4.2",
-    "@bookshop/loader": "^1.4.2",
+    "@bookshop/gen": "^1.4.11",
+    "@bookshop/loader": "^1.4.11",
     "@storybook/addon-a11y": "^6.0.21",
     "@storybook/addon-backgrounds": "^6.0.19",
     "@storybook/addon-controls": "^6.0.19",

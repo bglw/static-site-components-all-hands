@@ -16,3 +16,7 @@ twitter_username: liambigelow
 github_username:  bglw
 
 theme: theme
+
+_array_structures:
+  content_blocks:
+    style: modal

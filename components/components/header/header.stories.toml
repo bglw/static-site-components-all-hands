@@ -1,3 +1,10 @@
+[meta]
+array_structures = ["content_blocks"]
+label="Header"
+description="Main page h1"
+icon="psychology"
+tags=["headings", "structure"]
+
 [defaults]
 title = "Static Site Components"
 bg = true
