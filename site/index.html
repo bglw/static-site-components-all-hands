@@ -1,34 +1,53 @@
 ---
 layout: page
 title: Static Site Components
-content_blocks:
-  - _component_type: nav
-    logo:
-      image: /assets/me.png
-      alt: 'Me, but angry'
-    links:
-      - title: About
-        href: '#tree'
-      - title: The
-        href: '#tree'
-      - title: Things
-        href: '#tree'
-  - _component_type: header
-    title: Static Site Components
-    bg: true
-  - _component_type: info
-    bg: true
-    text: >-
-      This is some text about components. About this sort of length with a few
-      sentences.
-  - _component_type: piccy
-    flip: false
-    text: 'This is some text about components, with a picture.'
-    pic:
-      image: /assets/sheepdog.svg
-      alt: Sheepdog
+page_sections:
+  - bg_color: light
+    alignment: pinned
+    content_blocks:
+      - _component_type: nav
+        logo:
+          image: /assets/me.png
+          alt: 'Me, but angry'
+        links:
+          - title: About
+            href: '#tree'
+          - title: The
+            href: '#tree'
+          - title: Things
+            href: '#tree'
+      - _component_type: header
+        title: Static Site Components
+        bg: true
+  - bg_color: white
+    alignment: center
+    content_blocks:
+      - _component_type: info
+        bg: true
+        text: >-
+          This is some text about components. About this sort of length with a few
+          sentences.
+  - bg_color: dark
+    alignment: center
+    content_blocks:
+      - _component_type: piccy
+        flip: false
+        text: 'This is some text about components, with a picture.'
+        pic:
+          image: /assets/sheepdog.svg
+          alt: Sheepdog
 ---
 
-{% for block in content_blocks %}
-	{% component {{block._component_type}} bind=block %}
+<div class="l-page">
+{% for section in page.page_sections %}
+  <div class="l-section l-section--{{section.bg_color}} l-section--{{section.alignment}}">
+    <div class="l-section__inner">
+    {% for block in section.content_blocks %}
+      <div class="l-component">
+      	{% component {{block._component_type}} bind=block %}
+      </div>
+    {% endfor %}
+    </div>
+  </div>
 {% endfor %}
+</div>

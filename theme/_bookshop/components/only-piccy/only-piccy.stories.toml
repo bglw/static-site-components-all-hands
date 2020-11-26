@@ -1,0 +1,12 @@
+[meta]
+array_structures = ["content_blocks"]
+label="Only Piccy"
+description="Generic picture"
+icon="image"
+tags=["content"]
+
+[defaults]
+image = "/assets/sheepdog.svg"
+alt = "Sheepdog"
+
+[standard]

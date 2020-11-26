@@ -17,6 +17,25 @@ github_username:  bglw
 
 theme: theme
 
+_select_data:
+  alignments:
+    - pinned
+    - center
+    - top
+    - bottom
+  bg_colors:
+    - white
+    - light
+    - dark
+
 _array_structures:
   content_blocks:
     style: modal
+  page_sections:
+    values:
+      - label: Page Section
+        icon: crop_7_5
+        value:
+          bg_color: white
+          alignment: center
+          content_blocks:
