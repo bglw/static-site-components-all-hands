@@ -15,7 +15,7 @@ a {
     transform-origin: bottom;
     transition: transform .3s ease;
 
-    &::hover {
+    &:hover {
 	    transform: skew(-10deg);
     }
 }
