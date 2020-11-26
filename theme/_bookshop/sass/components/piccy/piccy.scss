@@ -8,6 +8,12 @@
     	text-align: right;
     }
 
+    &--pin {
+        #{$c}__image {
+            height: auto;
+            width: 100%;
+        }
+    }
 
     &__image {
     	height: 200px -> 350px;

@@ -7,6 +7,7 @@ tags=["content"]
 
 [defaults]
 flip = false
+pin_to_width = false
 text_markdown = "This is some text about components, with a picture."
 
 [defaults.pic]
