@@ -20,6 +20,10 @@
     	font-size: 32px -> 64px;
     	color: $text;
     	max-width: 813px;
+
+        p {
+            margin: 0;
+        }
     }
 
 }
