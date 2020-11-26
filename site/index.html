@@ -42,16 +42,30 @@ page_sections:
         pic:
           image: /uploads/screen-shot-2020-11-26-at-9-58-04-pm.png
           alt: The storybook for this website
-  - slug:
+  - slug: Flow chart old
     bg_color: white
     alignment: center
     content_blocks:
       - _component_type: info
         bg: false
-        text_markdown: Anatomy of a TOML file
+        text_markdown: "Previously: A hassle \U0001F97A"
       - _component_type: only-piccy
-        image: /uploads/toml-tags.svg
-        alt: Root level TOML keys
+        image: /uploads/flowchartbefore.svg
+        alt: >-
+          Powering the storybook used to be seperate from powering the website,
+          and thus could become unmaintained
+  - slug: Flow chart new
+    bg_color: white
+    alignment: center
+    content_blocks:
+      - _component_type: info
+        bg: false
+        text_markdown: Bookshop powers both from the same file ✨
+      - _component_type: only-piccy
+        image: /uploads/flowchartafter.svg
+        alt: >-
+          Bookshop uses the same TOML file to power both the website and the
+          storybook
   - slug: toml-anatomy
     bg_color: light
     alignment: center
