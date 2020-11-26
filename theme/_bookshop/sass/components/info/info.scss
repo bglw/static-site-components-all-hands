@@ -16,6 +16,12 @@
         }
     }
 
+    &--left {
+        #{$c}__text {
+            text-align: right;
+        }
+    }
+
 
     &__text {
     	font-size: 32px -> 64px;
