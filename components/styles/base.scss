@@ -13,7 +13,7 @@ a {
 	display: inline-block;
     transform: skew(0deg);
     transform-origin: bottom;
-    transition: transform .3s ease;
+    transition: transform .12s ease;
 
     &:hover {
 	    transform: skew(-10deg);
