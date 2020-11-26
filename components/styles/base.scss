@@ -19,3 +19,11 @@ a {
 	    transform: skew(-5deg);
     }
 }
+
+ul:hover li {
+	opacity: 0.3;
+
+	&:hover {
+		opacity: 1;
+	}
+}
