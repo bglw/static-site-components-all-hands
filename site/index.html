@@ -191,6 +191,28 @@ page_sections:
               wide: boolean('Wide', true),
             }
           }))
+  - slug: not-colocated
+    bg_color: white
+    alignment: center
+    content_blocks:
+      - _component_type: only-piccy
+        image: /uploads/not-colocated.svg
+        alt: Files organised into folders by filetype
+      - _component_type: info
+        bg: true
+        text_markdown: >-
+          Previously, we had files defining the component scattered across a
+          repo.
+  - slug: colocated
+    bg_color: light
+    alignment: center
+    content_blocks:
+      - _component_type: only-piccy
+        image: /uploads/colocated.svg
+        alt: Files organised into folders by component
+      - _component_type: info
+        bg: true
+        text_markdown: Bookshop kindly asks you to colocate your component files together.
 ---
 
 <div class="l-page">
