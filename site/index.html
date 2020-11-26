@@ -134,6 +134,63 @@ page_sections:
           [standard]  # The primary "story"
 
           [variants]  # Alternative stories
+  - slug: rewrite
+    bg_color: dark
+    alignment: center
+    content_blocks:
+      - _component_type: codey
+        code_block: >-
+          button.stories.csf
+
+
+          // Rewrite me, please!
+
+
+          import { storiesOf, addDecorator } from '@storybook/svelte';
+
+          import { withKnobs, text, boolean, number, select } from
+          '@storybook/addon-knobs';
+
+          import { Meta, Story, Props } from '@storybook/addon-docs/blocks';
+
+          import { jekyll, wrap, getComponent } from
+          'Helpers/html-in-svelte.js';
+
+
+          const component = getComponent("button");
+
+
+          const label = "Types";
+
+          const options = {
+            Red: 'red',
+            White: 'white',
+            Basic: 'basic',
+          }
+
+          const defaultValue = 'red';
+
+          const groupId = 'Button Type';
+
+
+
+          export default { 
+            title: 'Subcomponents|Button',
+            decorators: [
+              withKnobs
+            ]
+          };
+
+
+          export const standard = () => (jekyll({
+            component,
+            props: {
+              text: text("Text", "Test Button",),
+              type: select(label, options, defaultValue, groupId),
+              caps: boolean('Capitalized', true),
+              wide: boolean('Wide', true),
+            }
+          }))
 ---
 
 <div class="l-page">
