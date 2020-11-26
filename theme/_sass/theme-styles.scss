@@ -2,6 +2,7 @@ body, html {
 	margin: 0;
 	padding: 0;
 	scroll-snap-type: y proximity;
+	scroll-behavior: smooth;
 }
 
 .l-page { $c: &;
