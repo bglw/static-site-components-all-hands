@@ -1,3 +1,10 @@
+[meta]
+array_structures = ["content_blocks"]
+label="Navigation"
+description="Page navigation"
+icon="more_horiz"
+tags=["structure"]
+
 [defaults]
 
 [defaults.logo]

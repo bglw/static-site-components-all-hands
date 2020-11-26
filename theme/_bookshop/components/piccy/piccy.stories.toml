@@ -1,3 +1,10 @@
+[meta]
+array_structures = ["content_blocks"]
+label="Piccy"
+description="Generic info with picture"
+icon="filter_hdr"
+tags=["content"]
+
 [defaults]
 flip = false
 text = "This is some text about components, with a picture."
