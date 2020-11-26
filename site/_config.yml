@@ -36,7 +36,7 @@ _array_structures:
       - label: Page Section
         icon: crop_7_5
         value:
-          label:
+          slug:
           bg_color: white
           alignment: center
           content_blocks:
