@@ -1,0 +1,28 @@
+{
+  "name": "static-site-components-all-hands",
+  "private": true,
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install:all": "npm-run-all install:site install:theme install:components",
+    "start": "run-p start:site start:theme start:svelte start:components",
+    "start:pre": "run-p start:theme",
+    "gen": "cd components && npm run gen",
+    "install:site": "cd site && bundle install",
+    "start:site": "cd site && bundle exec jekyll serve",
+    "install:theme": "cd theme && npm install",
+    "start:theme": "cd theme && npm run watch",
+    "start:svelte": "cd theme && npm run svelte",
+    "install:components": "cd components && npm install",
+    "start:components": "cd components && npm run start"
+  },
+  "author": "@LiamBigelow",
+  "license": "MIT",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  },
+  "peerDependencies": {
+    "webpack": "^4.44.1"
+  }
+}

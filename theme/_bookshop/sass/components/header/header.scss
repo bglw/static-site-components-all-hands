@@ -1,0 +1,28 @@
+.c-header { $c: &;
+	position: relative;
+	width: 100%;
+	font-size: 60px -> 144px;
+
+	&--bg {
+		&::before {
+			content: "";
+			display: block;
+			position: absolute;
+			top: 0;
+			right: calc(100% - .5em);
+			height: 100%;
+			width: 100vw;
+			background-color: $highlight;
+			border-radius: 20px;
+			z-index: -1;
+		}
+	}
+
+    &__title {
+    	color: $text;
+    	font-weight: bold;
+    	margin: 0;
+    	font-size: 1em;
+    }
+
+}

@@ -1,0 +1,18 @@
+title: Static Site Components
+email: liam@cloudcannon.com
+description: >-
+  Static Site Components all hands website
+
+baseurl: ""
+url: ""
+
+plugins:
+  - jekyll-bookshop
+  - jekyll-stretcher
+  - bookshop-array-structures
+  - jekyll-svelte-slabs
+
+twitter_username: liambigelow
+github_username:  bglw
+
+theme: theme

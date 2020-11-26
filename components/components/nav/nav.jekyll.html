@@ -1,0 +1,13 @@
+<div class="{{ 'c-nav' | addmods:  | addstates: }}">
+
+    <img class="c-nav__logo" src="{{ include.logo.image }}" alt="{{ include.logo.alt }}"/>
+
+    <ul class="c-nav__links">
+    	{% for link in include.links %}
+	    <li class="c-nav__link">
+	    	<a class="c-nav__anchor" href="{{ link.href }}">{{ link.title }}</a>
+	    </li>
+	    {% endfor %}
+    </ul>
+
+</div>

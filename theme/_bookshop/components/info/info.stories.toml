@@ -1,0 +1,13 @@
+[defaults]
+bg = true
+text = "This is some text about components. About this sort of length with a few sentences."
+
+
+[standard]
+
+[plain]
+bg = false
+
+
+
+

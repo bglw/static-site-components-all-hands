@@ -1,0 +1,9 @@
+---
+layout: page
+title: Static Site Components
+content_blocks:
+---
+
+{% for block in content_blocks %}
+	{% component {{block._component_type}} bind=block %}
+{% endfor %}

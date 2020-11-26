@@ -1,0 +1,14 @@
+[defaults]
+
+[defaults.logo]
+image = "/assets/me.png"
+alt = "Me, but angry"
+
+[defaults.links--repeat]
+title = "Tree"
+href = "#tree"
+
+[standard]
+
+
+

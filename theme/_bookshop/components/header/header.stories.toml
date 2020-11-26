@@ -1,0 +1,10 @@
+[defaults]
+title = "Static Site Components"
+bg = true
+
+[standard]
+
+[plain]
+bg = false
+
+
