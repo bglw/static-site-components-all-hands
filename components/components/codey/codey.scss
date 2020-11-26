@@ -1,0 +1,13 @@
+.c-codey { $c: &;
+	font-family: 'Source Code Pro', monospace;
+	font-weight: bold;
+	white-space: pre-wrap;
+	color: $text;
+	font-size: 20px -> 36px;
+	line-height: 1.6em;
+
+	&::first-line {
+		color: $highlight;
+		font-size: 30px -> 48px;
+	}
+}
