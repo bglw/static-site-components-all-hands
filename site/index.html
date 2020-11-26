@@ -54,33 +54,6 @@ page_sections:
         alt: >-
           Powering the storybook used to be seperate from powering the website,
           and thus could become unmaintained
-  - slug: Flow chart new
-    bg_color: white
-    alignment: center
-    content_blocks:
-      - _component_type: info
-        bg: false
-        text_markdown: Bookshop powers both from the same file ✨
-      - _component_type: only-piccy
-        image: /uploads/flowchartafter.svg
-        alt: >-
-          Bookshop uses the same TOML file to power both the website and the
-          storybook
-  - slug: toml-anatomy
-    bg_color: light
-    alignment: center
-    content_blocks:
-      - _component_type: codey
-        code_block: |-
-          Anatomy of a TOML file
-
-          [meta]      # CloudCannon Specific config
-
-          [defaults]  # Main component props
-
-          [standard]  # The primary "story"
-
-          [variants]  # Alternative stories
   - slug: csf-example
     bg_color: dark
     alignment: center
@@ -134,6 +107,33 @@ page_sections:
               wide: boolean('Wide', true),
             }
           }))
+  - slug: Flow chart new
+    bg_color: white
+    alignment: center
+    content_blocks:
+      - _component_type: info
+        bg: false
+        text_markdown: Bookshop powers both from the same file ✨
+      - _component_type: only-piccy
+        image: /uploads/flowchartafter.svg
+        alt: >-
+          Bookshop uses the same TOML file to power both the website and the
+          storybook
+  - slug: toml-anatomy
+    bg_color: light
+    alignment: center
+    content_blocks:
+      - _component_type: codey
+        code_block: |-
+          Anatomy of a TOML file
+
+          [meta]      # CloudCannon Specific config
+
+          [defaults]  # Main component props
+
+          [standard]  # The primary "story"
+
+          [variants]  # Alternative stories
 ---
 
 <div class="l-page">
