@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+cd components
+
 #Backup whatever cloudcannon has put in dist
 echo "Backing up dist"
 rm -rf ./dist-back
