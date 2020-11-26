@@ -5,6 +5,10 @@ body, html {
 	scroll-behavior: smooth;
 }
 
+a {
+	color: $highlight;
+}
+
 .l-page { $c: &;
 }
 
