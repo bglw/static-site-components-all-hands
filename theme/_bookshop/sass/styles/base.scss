@@ -1,8 +1,21 @@
 body {
     font-family: 'Inter', sans-serif;
 }
+
 #bookshop-generated-render-root {
 	width: 100%;
 	max-width: 1059px;
 	margin: 0 auto;
+}
+
+a {
+	color: $highlight;
+	display: inline-block;
+    transform: skew(0deg);
+    transform-origin: bottom;
+    transition: transform .3s ease;
+
+    &::hover {
+	    transform: skew(-10deg);
+    }
 }
