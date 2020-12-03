@@ -30,6 +30,7 @@ _select_data:
 
 _array_structures:
   content_blocks:
+    style: modal
   page_sections:
     values:
       - label: Page Section
