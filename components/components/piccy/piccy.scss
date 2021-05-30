@@ -16,15 +16,15 @@
     }
 
     &__image {
-    	height: 200px -> 350px;
+    	height: var(--s-200-350);
     	width: auto;
     }
 
     &__text {
-    	margin-top: 30px -> 62px;
+    	margin-top: var(--s-30-62);
     	font-weight: bold;
-    	font-size: 32px -> 64px;
-    	color: $text;
+    	font-size: var(--s-32-64);
+    	color: var(--text);
     	max-width: 813px;
 
         p {

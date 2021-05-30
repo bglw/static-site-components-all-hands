@@ -1,0 +1,31 @@
+body {
+    font-family: 'Inter', sans-serif;
+	--s-design-min: 800;
+	--s-design-max: 1600;
+}
+
+#bookshop-generated-render-root {
+	width: 100%;
+	max-width: 1059px;
+	margin: 0 auto;
+}
+
+a {
+	color: var(--highlight);
+	display: inline-block;
+    transform: skew(0deg);
+    transform-origin: bottom;
+    transition: transform .12s ease;
+
+    &:hover {
+	    transform: skew(-5deg);
+    }
+}
+
+ul:hover li {
+	opacity: 0.3;
+
+	&:hover {
+		opacity: 1;
+	}
+}

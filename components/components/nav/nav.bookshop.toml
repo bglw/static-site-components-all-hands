@@ -1,0 +1,24 @@
+[component]
+array_structures = ["content_blocks"]
+label="Navigation"
+description="Page navigation"
+icon="more_horiz"
+tags=["structure"]
+
+[props]
+
+[props.logo]
+image = "/assets/me.png"
+alt = "Me, but angry"
+
+[[props.links]]
+title = "Tree"
+href = "#tree"
+
+[[props.links]]
+title = "Bee"
+href = "#bee"
+
+[[props.links]]
+title = "Knee"
+href = "#knee"

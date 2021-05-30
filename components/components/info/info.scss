@@ -6,11 +6,11 @@
         	&::after {
         		content: "";
         		display: block;
-        		background-color: $highlight;
-        		width: 40px -> 72px;
-        		height: 40px -> 72px;
+        		background-color: var(--highlight);
+        		width: var(--s-40-72);
+        		height: var(--s-40-72);
         		margin: 0 auto;
-        		margin-top: 16px -> 32px;
+        		margin-top: var(--s-16-32);
 		    	border-radius: 50%;
         	}
         }
@@ -24,9 +24,9 @@
 
 
     &__text {
-    	font-size: 32px -> 64px;
+    	font-size: var(--s-32-64);
     	font-weight: bold;
-    	color: $text;
+    	color: var(--text);
     	text-align: center;
     	width: 100%;
     	max-width: 813px;

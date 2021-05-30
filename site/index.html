@@ -6,7 +6,7 @@ page_sections:
     bg_color: light
     alignment: pinned
     content_blocks:
-      - _component_type: nav
+      - _bookshop_name: nav
         logo:
           image: /assets/me.png
           alt: 'Me, but angry'
@@ -17,14 +17,14 @@ page_sections:
             href: '#usage'
           - title: Deep Dive
             href: '#links'
-      - _component_type: header
+      - _bookshop_name: header
         title: Static Site Components
         bg: true
   - slug: what-is-a-component
     bg_color: white
     alignment: center
     content_blocks:
-      - _component_type: info
+      - _bookshop_name: info
         bg: true
         left: false
         text_markdown: What is a component?
@@ -32,14 +32,14 @@ page_sections:
     bg_color: white
     alignment: center
     content_blocks:
-      - _component_type: only-piccy
+      - _bookshop_name: only-piccy
         image: /uploads/example-components.png
         alt: Example components from the CloudCannon marketing website library
   - slug: what-is-storybook
     bg_color: white
     alignment: center
     content_blocks:
-      - _component_type: info
+      - _bookshop_name: info
         bg: true
         left: false
         text_markdown: >-
@@ -49,7 +49,7 @@ page_sections:
     bg_color: dark
     alignment: center
     content_blocks:
-      - _component_type: piccy
+      - _bookshop_name: piccy
         flip: false
         pin_to_width: false
         text_markdown: >-
@@ -63,7 +63,7 @@ page_sections:
     bg_color: white
     alignment: center
     content_blocks:
-      - _component_type: only-piccy
+      - _bookshop_name: only-piccy
         image: /uploads/component-pyramid.svg
         alt: >-
           Component pyramid - matching the design and development flow to match
@@ -72,7 +72,7 @@ page_sections:
     bg_color: white
     alignment: center
     content_blocks:
-      - _component_type: info
+      - _bookshop_name: info
         bg: true
         left: false
         text_markdown: >-
@@ -82,11 +82,11 @@ page_sections:
     bg_color: white
     alignment: center
     content_blocks:
-      - _component_type: info
+      - _bookshop_name: info
         bg: false
         left: false
         text_markdown: "Previously: A hassle \U0001F97A"
-      - _component_type: only-piccy
+      - _bookshop_name: only-piccy
         image: /uploads/flowchartbefore.svg
         alt: >-
           Powering the storybook used to be seperate from powering the website,
@@ -95,7 +95,7 @@ page_sections:
     bg_color: dark
     alignment: center
     content_blocks:
-      - _component_type: codey
+      - _bookshop_name: codey
         code_block: >-
           button.stories.js
 
@@ -148,7 +148,7 @@ page_sections:
     bg_color: white
     alignment: center
     content_blocks:
-      - _component_type: info
+      - _bookshop_name: info
         bg: true
         left: false
         text_markdown: >-
@@ -159,7 +159,7 @@ page_sections:
     bg_color: dark
     alignment: center
     content_blocks:
-      - _component_type: info
+      - _bookshop_name: info
         bg: false
         left: true
         text_markdown: |-
@@ -176,11 +176,11 @@ page_sections:
     bg_color: white
     alignment: center
     content_blocks:
-      - _component_type: info
+      - _bookshop_name: info
         bg: false
         left: false
         text_markdown: Bookshop powers both from the same file ✨
-      - _component_type: only-piccy
+      - _bookshop_name: only-piccy
         image: /uploads/flowchartafter.svg
         alt: >-
           Bookshop uses the same TOML file to power both the website and the
@@ -189,7 +189,7 @@ page_sections:
     bg_color: white
     alignment: center
     content_blocks:
-      - _component_type: only-piccy
+      - _bookshop_name: only-piccy
         image: /uploads/toml-flowchart.svg
         alt: >-
           Full component flowchart, powering Storybook, CloudCannon, and the
@@ -198,7 +198,7 @@ page_sections:
     bg_color: light
     alignment: center
     content_blocks:
-      - _component_type: codey
+      - _bookshop_name: codey
         code_block: |-
           Anatomy of a TOML file
 
@@ -213,7 +213,7 @@ page_sections:
     bg_color: dark
     alignment: center
     content_blocks:
-      - _component_type: codey
+      - _bookshop_name: codey
         code_block: >-
           button.stories.js
 
@@ -270,10 +270,10 @@ page_sections:
     bg_color: white
     alignment: center
     content_blocks:
-      - _component_type: only-piccy
+      - _bookshop_name: only-piccy
         image: /uploads/not-colocated.svg
         alt: Files organised into folders by filetype
-      - _component_type: info
+      - _bookshop_name: info
         bg: true
         left: false
         text_markdown: >-
@@ -283,10 +283,10 @@ page_sections:
     bg_color: light
     alignment: center
     content_blocks:
-      - _component_type: only-piccy
+      - _bookshop_name: only-piccy
         image: /uploads/colocated.svg
         alt: Files organised into folders by component
-      - _component_type: info
+      - _bookshop_name: info
         bg: true
         left: false
         text_markdown: Bookshop kindly asks you to colocate your component files together.
@@ -294,7 +294,7 @@ page_sections:
     bg_color: white
     alignment: center
     content_blocks:
-      - _component_type: piccy
+      - _bookshop_name: piccy
         flip: false
         pin_to_width: false
         text_markdown: Build the CMS from your components
@@ -305,11 +305,11 @@ page_sections:
     bg_color: white
     alignment: center
     content_blocks:
-      - _component_type: info
+      - _bookshop_name: info
         bg: false
         left: false
         text_markdown: Using components
-      - _component_type: codey
+      - _bookshop_name: codey
         code_block: >-
           site/index.html
 
@@ -327,7 +327,7 @@ page_sections:
     bg_color: white
     alignment: center
     content_blocks:
-      - _component_type: piccy
+      - _bookshop_name: piccy
         flip: true
         pin_to_width: true
         text_markdown: >-
@@ -354,7 +354,7 @@ page_sections:
     <div class="l-section__inner">
     {% for block in section.content_blocks %}
       <div class="l-component">
-      	{% component {{block._component_type}} bind=block %}
+      	{% bookshop {{block._bookshop_name}} bind=block %}
       </div>
     {% endfor %}
     </div>

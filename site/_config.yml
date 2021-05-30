@@ -6,16 +6,17 @@ description: >-
 baseurl: ""
 url: ""
 
+bookshop_locations:
+  - ../components
+
 plugins:
   - jekyll-bookshop
-  - jekyll-stretcher
   - bookshop-array-structures
-  - jekyll-svelte-slabs
+  - jekyll-postcss
+
 
 twitter_username: liambigelow
 github_username:  bglw
-
-theme: theme
 
 _select_data:
   alignments:

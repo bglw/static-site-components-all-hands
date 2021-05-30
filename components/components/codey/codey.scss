@@ -2,8 +2,8 @@
 	font-family: 'Source Code Pro', monospace;
 	font-weight: bold;
 	white-space: pre;
-	color: $text;
-	font-size: 20px -> 36px;
+	color: var(--text);
+	font-size: var(--s-20-36);
 	line-height: 1.6em;
     outline: none;
     border: solid 4px;
@@ -13,11 +13,11 @@
     overflow: scroll;
 
 	&::first-line {
-		color: $highlight;
-		font-size: 30px -> 48px;
+		color: var(--highlight);
+		font-size: var(--s-30-48);
 	}
 
 	&:focus {
-	    border: solid 4px $highlight;
+	    border: solid 4px var(--highlight);
 	}
 }

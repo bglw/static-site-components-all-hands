@@ -1,0 +1,19 @@
+---
+layout: default
+published: false
+---
+
+<div data-bookshop-polymorph>
+    <p>Hello! 👋 </p>
+    {% if jekyll.environment == "production" %}
+        <p>The bookshop renderer is loading....</p>
+    {% else %}
+        <p>Hmm. Is your bookshop server running?</p>
+    {% endif %}
+</div>
+{% if jekyll.environment == "production" %}
+    <script src="/assets/js/bookshop-dev.js"></script>
+{% else %}
+    <script src="http://localhost:6096/bookshop.js"></script>
+{% endif %}
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">

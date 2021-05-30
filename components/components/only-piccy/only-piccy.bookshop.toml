@@ -1,0 +1,10 @@
+[component]
+array_structures = ["content_blocks"]
+label="Only Piccy"
+description="Generic picture"
+icon="image"
+tags=["content"]
+
+[props]
+image = "/assets/sheepdog.svg"
+alt = "Sheepdog"

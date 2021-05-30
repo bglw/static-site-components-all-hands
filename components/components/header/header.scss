@@ -1,7 +1,7 @@
 .c-header { $c: &;
 	position: relative;
 	width: 100%;
-	font-size: 60px -> 144px;
+	font-size: var(--s-60-144);
 	z-index: 1;
 
 	&--bg {
@@ -13,14 +13,14 @@
 			right: calc(100% - .5em);
 			height: 100%;
 			width: 100vw;
-			background-color: $highlight;
+			background-color: var(--highlight);
 			border-radius: 20px;
 			z-index: -1;
 		}
 	}
 
     &__title {
-    	color: $text;
+    	color: var(--text);
     	font-weight: bold;
     	margin: 0;
     	font-size: 1em;
