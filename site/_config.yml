@@ -8,6 +8,7 @@ url: ""
 
 bookshop_locations:
   - ../components
+  - components
 
 plugins:
   - jekyll-bookshop
